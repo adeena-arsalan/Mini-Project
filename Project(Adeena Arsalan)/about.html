@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gaming Loop</title>
+    <link rel="shortcut icon" href="images/WhatsApp_Image_2025-02-13_at_1.36.18_PM-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+</head>
+<style>
+  .box{
+    height: 350px;
+    width: 150px;
+    background-color: palevioletred;
+    position: relative;
+    left: 340px;
+  }
+  .image{
+    position: absolute;
+    top: 100px;
+    margin: 80px;
+    
+  }
+.hey{
+  font-weight: bold;
+  color: darkslategrey;
+}
+.heading{
+  font-weight: bold;
+  color: white;
+}
+.container1{
+  background-color: lightpink;
+  height: 500px;
+}
+.images{
+  height: 250px;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  top: -25px;
+}
+.head{
+  font-weight: bold;
+
+  
+}
+.parag{
+  position: absolute;
+  
+}
+.hell{
+  font-weight: bold;
+}
+
+</style>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark position-sticky top-0" style="z-index: 1;">
+        <div class="container-fluid">
+          <img src="images/WhatsApp_Image_2025-02-13_at_1.36.18_PM-removebg-preview.png" alt="" height="90px" width="100px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="feedback.html">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white" href="#">Game 1</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Game 2</a></li>
+                  <li><hr class="dropdown-divider-white bg-light"></li>
+                  <li><a class="dropdown-item text-white" href="#">Game 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a href="register_pg.html"><button  class="bg-dark text-white m-2" type="submit">Sign Up</button></a>
+            <a href="login.html"><button  class="bg-dark text-white m-2" type="submit">Login</button></a>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    <div class="container">
+      <div class="row">
+        <div class="col m-2">
+          <h1 class="display-4 m-5 text-center hey"><span>About Us Page</span></h1>
+          <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore harum natus quos accusantium id, suscipit dolorem? Sint, similique! Sed ullam, necessitatibus dolorem reiciendis odit mollitia consequatur nulla deserunt tempore eaque?</p>
+        </div>
+        <div class="col">
+          <div class="box m-2"></div>
+          <img src="images/game.webp" alt="" height="220px" width="350px" class="image">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container1">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-3 text-center hell">Casual Fun for<span class=" heading"> <br>Everyone</span></h1>
+        </div>
+        <div class="col">
+          <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed itaque natus magnam, ipsam officiis? Quo nemo explicabo quaerat rem placeat adipisci ea? Dolorum, obcaecati veniam ipsa quia consectetur architecto.</p>
+        </div>
+      </div>
+      <div class="row m-5 text-center">
+        <div class="col"><img src="images/Pic1.jpg" alt="" class="images"></div>
+        <div class="col"><img src="images/Pic2.jpg" alt="" class="images"></div>
+        <div class="col"><img src="images/Pic3.jpg" alt="" class="images"></div> 
+      </div>
+    </div>
+    <br>
+    <div class="container3">
+      <div class="row text-center m-2">
+        <div class="col">
+          <img src="images/pic4.png" alt="" height="250px" width="400px" class="m-4">
+        </div>
+        <div class="col m-4 text-center">
+          <h1 class="head">Enter the World of Endless Fun</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nihil perferendis, exercitationem doloribus impedit quos quaerat, explicabo illo repudiandae nulla ab ipsam pariatur adipisci natus, aut nisi debitis provident reprehenderit?</p>
+        </div>
+      </div>
+      <br>
+      <!-- Counter Section -->
+<div class="container text-center my-5">
+  <h1 class="display-4">Total Players</h1>
+  <h2 id="counter" class="display-3 text-primary">0</h2>
+</div>
+
+<script>
+  function animateCounter(id, target, duration) {
+      let start = 0;
+      const stepTime = Math.abs(Math.floor(duration / target));
+      const counter = document.getElementById(id);
+      const timer = setInterval(() => {
+          start += 1;
+          counter.innerText = start;
+          if (start >= target) clearInterval(timer);
+      }, stepTime);
+  }
+
+  function startCounterWhenVisible() {
+      const counterSection = document.getElementById("counter");
+      const observer = new IntersectionObserver(entries => {
+          if (entries[0].isIntersecting) {
+              animateCounter("counter", 1000, 2000); // Counts to 1000 in 2 sec
+              observer.disconnect();
+          }
+      }, { threshold: 0.5 });
+
+      observer.observe(counterSection);
+  }
+
+  document.addEventListener("DOMContentLoaded", startCounterWhenVisible);
+</script>
+    </div>
+      
+     <!-- Footer Start -->
+     <footer class="bg-body-tertiary text-center bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            target="_blank"
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+            target="_blank"
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="https://www.google.com/"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+            target="_blank"
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+            target="_blank"
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+            target="_blank"
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdotnet%2Froslyn%2Fissues%2Fnew%2Fchoose"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright:The_Gaming_Loop.com
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer End -->
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>

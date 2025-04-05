@@ -1,0 +1,39 @@
+let data=[
+    {
+        "img" : "images/pic4.png",
+        "title" : "Darts Gameplay",
+        "des" : "Throw darts at a board to score points by hitting numbered sections. Aim for the bullseye for maximum points.",
+        "btn" : " Add To Cart"
+    },
+    {
+        "img" : "images/Pic2.jpg",
+        "title" : "Monopoly Gameplay",
+        "des" : "A property-trading board game where players buy, sell, and build to bankrupt opponents.",
+        "btn" : " Add To Cart"
+    },{
+        "img" : "images/Pic3.jpg",
+        "title" : "Chess Gameplay",
+        "des" : "A two-player strategy game to checkmate the opponent's king.",
+        "btn" : " Add To Cart"
+    },
+    {
+        "img" : "images/pic4.png",
+        "title" : "Darts Gameplay",
+        "des" : "Throw darts at a board to score points by hitting numbered sections.",
+        "btn" : " Add To Cart"
+    },
+    
+    {
+        "img" : "images/Pic2.jpg",
+        "title" : "Monopoly Gameplay",
+        "des" : "A property-trading board game where players buy, sell, and build to bankrupt opponents.",
+        "btn" : " Add To Cart"
+    },
+    {
+        "img" : "images/Pic3.jpg",
+        "title" : "Chess Gameplay",
+        "des" : "A two-player strategy game to checkmate the opponent's king.",
+        "btn" : " Add To Cart"
+    }
+    
+    ]
